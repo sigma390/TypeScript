@@ -15,4 +15,24 @@ const p1 = {
     last: "Patil",
 };
 console.log(printName(p1));
+const printt = (person) => {
+    return `hi my name is ${p1.first} ${p1.last}`;
+};
+console.log(printt(p1));
+let cord = { x: 45, y: 56 };
+function findCord() {
+    return { x: Math.random(), y: Math.random() };
+}
+const p2 = {
+    first: "Omkar",
+    last: "Patil",
+    age: 22,
+};
+printName(p2);
+function pt(point) {
+    return { x: point.x * 2, y: point.y * 4 };
+}
+function pt1(point) {
+    return { x: point.x * 2, y: point.y * 4 };
+}
 //# sourceMappingURL=objects.js.map

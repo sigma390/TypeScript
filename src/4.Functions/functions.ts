@@ -56,3 +56,8 @@ function justPrint(): void {
   console.log("THIS IS VOID RETURN TYPE");
 }
 justPrint();
+
+// //never function
+// function loopp(): never {
+//   console.log("hiii");
+// }

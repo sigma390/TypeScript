@@ -17,8 +17,17 @@ const p1 = {
   first: "omkar",
   last: "Patil",
 };
-console.log(printName(p1));
 
+console.log(printName(p1));
+// same using type aliasing
+type per ={
+  first:string;
+  last:string;
+}
+const printt = (person:per)=>{
+  return `hi my name is ${p1.first} ${p1.last}`
+}
+console.log(printt(p1));
 //more about object typess
 let cord: { x: number; y: number } = { x: 45, y: 56 };
 
@@ -46,7 +55,7 @@ function pt(point: { x: number; y: number }): { x: number; y: number } {
   return { x: point.x * 2, y: point.y * 4 };
 }
 
-//using aliasing
+//same function using aliasing
 type pointy = {
   x: number;
   y: number;
@@ -56,3 +65,19 @@ function pt1(point: pointy): pointy {
 }
 
 //both functions yeild same output
+
+
+//optional parametres
+        type numm = {
+          x:number;
+          y:string;
+
+        }
+        const obj:numm = {  //valid
+          x:10,y:"pappu"
+        }
+
+        //invalid 
+        // const obj:numm = {  
+        //   x:10;
+        // }
