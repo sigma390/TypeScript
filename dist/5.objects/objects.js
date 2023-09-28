@@ -35,4 +35,7 @@ function pt(point) {
 function pt1(point) {
     return { x: point.x * 2, y: point.y * 4 };
 }
+const obj = {
+    x: 10, y: "pappu"
+};
 //# sourceMappingURL=objects.js.map
