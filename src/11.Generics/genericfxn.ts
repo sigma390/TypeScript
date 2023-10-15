@@ -28,6 +28,31 @@ let c2:cat={
 let c3:cat={
     name:"boka",
 };
+
+type leopard ={
+    name:string;
+
+}
+type Cars = {
+    name:string;
+    driverName:string;
+
+}  
+type trucks = {
+    name:string;
+}
+class drive{
+    public name:string;
+    readonly id:number; 
+    constructor(name:string,id:number){
+        this.name = name;
+        this.id = id;
+    }
+}
+
+ 
+
+  
 let catarr:cat[] = [c1,c2,c3]
 console.log(randomm<number>([1,2,3,48,6,9,2])); //example of number
 console.log(randomm<string>(["hi","i am","omkar"])); //example of stirng

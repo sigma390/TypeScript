@@ -17,6 +17,12 @@ let c2 = {
 let c3 = {
     name: "boka",
 };
+class drive {
+    constructor(name, id) {
+        this.name = name;
+        this.id = id;
+    }
+}
 let catarr = [c1, c2, c3];
 console.log(randomm([1, 2, 3, 48, 6, 9, 2]));
 console.log(randomm(["hi", "i am", "omkar"]));
