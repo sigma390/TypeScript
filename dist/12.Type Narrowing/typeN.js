@@ -72,4 +72,20 @@ function Makesound(animal) {
 }
 Makesound({ name: "rober", numlivs: 5 });
 Makesound({ name: "maxx", breed: "Labrodor" });
+function guesstheBIRD(bird) {
+    switch (bird.kind) {
+        case ("eagle"):
+            return "eagle";
+            break;
+        case ("kite"):
+            return "kite";
+            break;
+        case ("sparrow"):
+            return "sparrow";
+            break;
+        default:
+            const dontcome = bird;
+            break;
+    }
+}
 //# sourceMappingURL=typeN.js.map
